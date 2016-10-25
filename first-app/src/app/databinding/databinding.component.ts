@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'fs-databinding',
+  selector: 'fa-databinding',
   templateUrl: './databinding.component.html',
   styleUrls: ['./databinding.component.css']
 })
@@ -13,4 +13,9 @@ export class DatabindingComponent {
   onTest () {
     return true;
   }
+
+  onClicked(value: string) {
+    alert(value);
+  }
+
 }
